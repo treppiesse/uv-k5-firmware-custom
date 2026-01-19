@@ -46,7 +46,7 @@ ENABLE_SCAN_RANGES              ?= 1
 # Thank you @markusb
 ENABLE_REGA                     ?= 0
 # Thank you @reppad
-ENABLE_EXTRA_UART_CMD           ?= 0
+ENABLE_EXTRA_UART_CMD           ?= 1
 
 # ---- F4HWN MODS ----
 
@@ -72,7 +72,7 @@ ENABLE_FEAT_F4HWN_DEBUG         ?= 0
 # ---- DEBUGGING ----
 ENABLE_AM_FIX_SHOW_DATA         ?= 0
 ENABLE_AGC_SHOW_DATA            ?= 0
-ENABLE_UART_RW_BK_REGS          ?= 0
+ENABLE_UART_RW_BK_REGS          ?= 1
 
 # ---- COMPILER/LINKER OPTIONS ----
 ENABLE_CLANG                    ?= 0
